@@ -1,0 +1,27 @@
+{
+  "name": "news-letter-signup",
+  "version": "1.0.0",
+  "description": "Creating new letter signup app using mailchip server.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdulahiDayur/News-Letter-Signup.git"
+  },
+  "author": "Abdul Dayur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AbdulahiDayur/News-Letter-Signup/issues"
+  },
+  "homepage": "https://github.com/AbdulahiDayur/News-Letter-Signup#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
